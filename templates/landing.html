@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing - Network Packet Sniffer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='landing.css') }}">
+</head>
+<body>
+    <div class="landing-container">
+        <h1>Welcome to Network Packet Sniffer</h1>
+        <p>
+            This tool captures live network packets from your system and visualizes them in real-time.<br>
+            Use it to analyze your network traffic, detect suspicious activity, and diagnose connectivity issues.
+        </p>
+
+        <div class="features">
+            <ul>
+                <li>📊 Real-time packet capture</li>
+                <li>📈 Live graph of packets per second</li>
+                <li>🔍 Protocol, source, and destination details</li>
+                <li>💾 Export captured data to CSV files</li>
+            </ul>
+        </div>
+
+      <a href="{{ url_for('sniffer_page') }}" class="button">
+    🚀 Start Web Sniffing
+</a>
+
+
+
+
+    </div>
+</body>
+</html>

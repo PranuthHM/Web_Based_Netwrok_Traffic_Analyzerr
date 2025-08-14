@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Network Packet Sniffer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Network Packet Sniffer</h1>
+    <div class="buttons">
+      <button onclick="startSniffing()">Start Sniffing</button>
+      <button onclick="stopSniffing()">Stop Sniffing</button>
+      <button onclick="exportData()">Export to CSV</button>
+    </div>
+
+    <canvas id="packetChart" width="900" height="300"></canvas>
+
+    <div class="table-container">
+      <table id="packetTable">
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Source</th>
+            <th>Destination</th>
+            <th>Protocol</th>
+            <th>Length</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
