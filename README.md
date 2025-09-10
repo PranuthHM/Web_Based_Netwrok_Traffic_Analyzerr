@@ -50,7 +50,8 @@ The tool helps gain **quick insights** into network flows and traffic patterns.
 
 2. **Install dependencies**
    ``` bash
-   pip install -r requirements.txt ```
+   pip install -r requirements.txt
+   ```
 
 3. **Use a virtual environment**
    ``` bash
@@ -59,11 +60,13 @@ The tool helps gain **quick insights** into network flows and traffic patterns.
     venv\Scripts\activate    # Windows
     source venv/bin/activate # Linux/macOS
 
-    pip install -r requirements.txt ```
+    pip install -r requirements.txt 
+    ```
 
  4. ** ▶️ Usage **
     ``` bash
-     python app.py ```
+     python app.py
+    ```
 
 ## 👤 Author  
 **Pranuth HM**  
