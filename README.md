@@ -68,6 +68,10 @@ The tool helps gain **quick insights** into network flows and traffic patterns.
      python app.py
     ```
 
+# Landing Page:
+<img width="1909" height="899" alt="image" src="https://github.com/user-attachments/assets/55977f90-ec65-44db-bf91-6e1934cba987" />
+
+
 ## 👤 Author  
 **Pranuth HM**  
 🔗 [GitHub Profile](https://github.com/PranuthHM)
