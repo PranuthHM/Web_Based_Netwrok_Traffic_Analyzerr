@@ -1,94 +1,73 @@
-# Web_Based_Netwrok_Traffic_Analyzerr
-A web-based network traffic analyzer built with Python and Flask. It monitors, analyzes, and provides insight into network traffic in real time using a simple web interface.
+# Web Based Network Traffic Analyzer
 
-## Table of Contents
-- [📖 Project Overview](#-project-overview)
-- [Features](#-Features)
+A **web-based network traffic analyzer** built with **Python** and **Flask**. It monitors, analyzes, and provides insights into network traffic in real time through a simple and interactive web interface.
 
-Features
+---
 
-Tech Stack
+## 📌 Table of Contents
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
 
-Installation
+---
 
-Usage
+## 📖 Project Overview
+This project provides an interactive web dashboard to analyze and visualize network traffic data.  
+It is designed for:
+- 🎓 Students  
+- 👨‍💻 Developers  
+- 🛡️ Network administrators  
 
-Contributing
+The tool helps gain **quick insights** into network flows and traffic patterns.
 
-License
+---
 
-Author
+## ✨ Features
+- ⚡ Real-time network traffic analysis  
+- 🌐 Web-based interface for easy access  
+- 📊 Interactive graphs and dashboard *(coming soon!)*  
+- 🔎 Filter and search tool for traffic logs  
+- 🧩 Modular and extensible codebase  
 
- ## Project Overview
-This project provides an interactive web dashboard to analyze and visualize network traffic data. The tool is ideal for students, developers, and network administrators seeking quick insights into network flows and patterns.
+---
 
-Features
-Real-time network traffic analysis
+## 🛠️ Tech Stack
+- **Backend**: Python 3, Flask, Flask-SocketIO, Eventlet, Greenlet  
+- **Frontend**: HTML, CSS, JavaScript, Jinja2  
+- **Others**: Socket-based real-time updates  
 
-Web interface for easy accessibility
+---
 
-Interactive graphs and dashboard (coming soon!)
+## 🚀 Installation
 
-Filter and search tool for traffic logs
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/PranuthHM/Web_Based_Netwrok_Traffic_Analyzerr.git
+   cd Web_Based_Netwrok_Traffic_Analyzerr ```
 
-Modular and extensible codebase
+2. **Install dependencies**
+   ``` bash
+   pip install -r requirements.txt ```
 
-Tech Stack
-Python 3
+3. **Use a virtual environment**
+   ``` bash
+   python -m venv venv
+  # Activate it:
+    venv\Scripts\activate    # Windows
+    source venv/bin/activate # Linux/macOS
 
-Flask (Web Framework)
+    pip install -r requirements.txt ```
 
-Flask-SocketIO (Real-time updates)
+ 4. ** ▶️ Usage **
+    ``` bash
+     python app.py ```
 
-Eventlet and Greenlet (Async networking)
+## 👤 Author  
+**Pranuth HM**  
+🔗 [GitHub Profile](https://github.com/PranuthHM)
 
-Jinja2 (Templating)
-
-HTML, CSS, JavaScript (frontend)
-
-Installation
-Clone the repository
-
-text
-git clone https://github.com/PranuthHM/Web_Based_Netwrok_Traffic_Analyzerr.git
-cd Web_Based_Netwrok_Traffic_Analyzerr
-Install dependencies
-
-text
-pip install -r requirements.txt
-If you encounter package version conflicts, use a virtual environment:
-
-text
-python -m venv venv
-venv\Scripts\activate    # Windows
-source venv/bin/activate # Linux/macOS
-pip install -r requirements.txt
-Usage
-Run the app
-
-text
-python app.py
-Open your browser
-
-Navigate to http://localhost:5000
-
-View and interact with your network traffic dashboard
-
-Contributing
-Pull requests are welcome! For feature requests or bug reports, please create an issue.
-
-Steps to contribute:
-
-Fork the repository
-
-Create a new branch (git checkout -b feature-name)
-
-Commit and push your changes
-
-Open a pull request with a description of your changes
-
-License
-Distributed under the MIT License. See LICENSE for more information.
-
-Author
-PranuthHM
