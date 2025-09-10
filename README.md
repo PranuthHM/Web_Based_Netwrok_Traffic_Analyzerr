@@ -46,7 +46,7 @@ The tool helps gain **quick insights** into network flows and traffic patterns.
 1. **Clone the repository**
    ```bash
    git clone https://github.com/PranuthHM/Web_Based_Netwrok_Traffic_Analyzerr.git
-   cd Web_Based_Netwrok_Traffic_Analyzerr ```
+   cd Web_Based_Netwrok_Traffic_Analyzerr  ```
 
 2. **Install dependencies**
    ``` bash
