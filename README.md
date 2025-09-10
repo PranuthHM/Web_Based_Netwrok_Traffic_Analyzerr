@@ -19,7 +19,7 @@ License
 
 Author
 
-## Project overview
+## Project Overview
 This project provides an interactive web dashboard to analyze and visualize network traffic data. The tool is ideal for students, developers, and network administrators seeking quick insights into network flows and patterns.
 
 Features
