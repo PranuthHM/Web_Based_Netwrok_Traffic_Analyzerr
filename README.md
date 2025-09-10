@@ -69,7 +69,8 @@ The tool helps gain **quick insights** into network flows and traffic patterns.
     ```
 
 # Landing Page:
-![Landing Page](images/landing.png)
+![Landing Page](https://github.com/PranuthHM/Web_Based_Netwrok_Traffic_Analyzerr/blob/main/images/Landing.png?raw=true)
+
 
 
 ## 👤 Author  
