@@ -10,10 +10,7 @@ A **web-based network traffic analyzer** built with **Python** and **Flask**. It
 - [Tech Stack](#-tech-stack)
 - [Installation](#-installation)
 - [Usage](#-usage)
-- [Contributing](#-contributing)
-- [License](#-license)
 - [Author](#-author)
-
 
 ---
 
