@@ -78,4 +78,9 @@ The tool helps gain **quick insights** into network flows and traffic patterns.
 ## 👤 Author  
 **Pranuth HM**  
 🔗 [GitHub Profile](https://github.com/PranuthHM)
+🔗 [LinedIn Profile](https://www.linkedin.com/in/pranuth-hm)
+🔗 [Portfolio Profile](https://pranuth.netlify.app/)
+
+
+
 
