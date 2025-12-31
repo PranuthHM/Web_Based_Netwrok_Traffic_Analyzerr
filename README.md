@@ -63,7 +63,7 @@ The tool helps gain **quick insights** into network flows and traffic patterns.
     pip install -r requirements.txt 
     ```
 
- 4. ** ▶️ Usage **
+ 4. **▶️ Usage**
     ``` bash
      python app.py
     ```
